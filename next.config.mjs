@@ -1,0 +1,8 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    optimizePackageImports: ["@heroicons/react", "lucide-react", "motion"],
+  },
+};
+
+export default nextConfig;
